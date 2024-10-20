@@ -63,8 +63,8 @@ model SalesSummary {
   date             DateTime
 }
 
-model PurchasesSummary {
-  purchasesSummaryId String   @id
+model PurchaseSummary {
+  purchaseSummaryId String   @id
   totalPurchased     Float
   changePercentage   Float?
   date               DateTime
